@@ -1,0 +1,38 @@
+<html>
+    <head>
+		<title>Pendaftaran</title>
+	</head>
+    <body>
+	<form action="print.php" method="post">
+	<h2>Informasi Umum</h2>        
+		<p>Nama			: <input type="text" name="nama"/></p>
+		<p>NIM			: <input type="text" name="nim"/></p>
+		<p>Tempat / Tanggal Lahir	: <input type="text" name="tempat"/> / <input type="text" name="tanggal"/> </p>
+		<p>Alamat		: <input type="text" name="alamat"/></p>
+		<p>Jenis Kelamin	:
+		<input type="radio" name="sex" value="man"/>Laki - Laki
+		<input type="radio" name="sex" value="woman"/>Perempuan
+		</p>
+		<p>Agama :
+		<select id="Ag" name=”Agama”>
+		<option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+		</select>
+		</p>
+		<br>
+	<h2>Informasi Perkuliahan</h1>
+		<p>Prodi		: <input type="text" name="prodi"/></p>
+		<p>Jurusan		: <input type="text" name="jurusan"/></p>
+		<p>Fakultas		: <input type="text" name="fakultas"/></p>
+		<p>Universitas	: <input type="text" name="universitas"/></p>
+	    <br>
+		<p>
+		   <input type="submit" value="Submit"/>
+                   <input type="reset" value="Reset"/>
+		</p>
+	</form>
+     </body>
+</html>
